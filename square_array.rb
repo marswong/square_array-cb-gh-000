@@ -4,7 +4,7 @@ def square_array(array)
   array.each do |x|
     array << x ** 2
     array.shift
-    binding.pry
+    binding.pry if x == 2
   end
 
   return array
